@@ -83,20 +83,36 @@
     transition: background-color 0.3s ease;
 }
 
-.download-button.steam {
+.download-button.steam 
+{
     background-color: #007bff;
     color: #fff;
 }
 
-.download-button.google-play {
+.download-button.google-play 
+{
     background-color: #3DDC84;
     color: #fff;
 }
 
-.download-button.app-store {
-    background-color: #555;
+.download-button.app-store 
+{
+    background-color: #929292;
     color: #fff;
 }
+
+.download-button.webgl 
+{
+    background-color: #4ea5df;
+    color: #fff;
+}
+
+.download-button.youtube 
+{
+    background-color: #ff4a4a;
+    color: #fff;
+}
+
 
 /* 참여한 작업들을 위한 간단한 목록 스타일 */
 .game-grid-simple {
@@ -122,8 +138,8 @@
 }
 
 .game-item-simple img {
-    width: 120px;
-    height: 80px;
+    width: 180px;
+    height: 120px;
     object-fit: cover;
     border-radius: 4px;
 }
@@ -133,17 +149,21 @@
     padding: 0;
 }
 
+.game-item-simple .game-details h3 {
+    margin-right: 150px;
+}
+
 .game-item-simple h3 {
     margin: 0;
     font-size: 1.2em;
 }
 
 .game-item-simple .my-role {
-    margin: 5px 0 0 0;
+    margin: 0 0 5px 0;
     font-size: 0.9em;
     color: #666;
 }
 
 .game-item-simple .download-links {
-    margin: 0;
+    margin: 12px 0 0 0;
 }
