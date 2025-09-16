@@ -1,0 +1,149 @@
+.project-list 
+{
+    padding: 20px 0;
+}
+
+.project-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+}
+
+.project-section .section-description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
+.project-section
+{
+    margin-bottom: 100px;
+}
+
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.game-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.game-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.game-details {
+    padding: 20px;
+}
+
+.game-details h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    color: #222;
+}
+
+.genre, .description, .my-role {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.download-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.download-button {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-button.steam {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.download-button.google-play {
+    background-color: #3DDC84;
+    color: #fff;
+}
+
+.download-button.app-store {
+    background-color: #555;
+    color: #fff;
+}
+
+/* 참여한 작업들을 위한 간단한 목록 스타일 */
+.game-grid-simple {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.game-item-simple {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.game-item-simple:hover {
+    background-color: #f9f9f9;
+}
+
+.game-item-simple img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.game-item-simple .game-details {
+    flex-grow: 1;
+    padding: 0;
+}
+
+.game-item-simple h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.game-item-simple .my-role {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.game-item-simple .download-links {
+    margin: 0;
+}

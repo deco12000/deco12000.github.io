@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub. deco12000</title>
+    <link rel="stylesheet" href="css/Common.css">
+    <link rel="stylesheet" href="css/Board.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="https://placehold.co/30x30/cccccc/333333?text=로고" alt="로고">
+                    GitHub. deco12000
+                </a>
+                <a href="Works.html">Works</a>
+                <a href="Board.html">Board</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+<!-- 
+        <div class="container board-container">
+            <div class="board-selector-container">
+                <select id="boardSelector" class="board-selector">
+                    <option value="all-board">전체 게시판</option>
+                    <option value="free-board">자유 게시판</option>
+                    <option value="deep-purge-board">심층정화 게시판</option>
+                    <option value="sound-island-board">소리섬 게시판</option>
+                </select>
+            </div>
+
+            <section id="all-board" class="board-section">
+                <h2>전체 게시판</h2>
+                <ul class="post-list">
+                    <li>
+                        <span class="post-title">전체 게시판: 게임 업데이트 소식입니다.</span>
+                        <span class="post-meta">관리자 | 2025-08-22</span>
+                    </li>
+                    <li>
+                        <span class="post-title">자유 게시판: 새 게임에 대한 아이디어!</span>
+                        <span class="post-meta">방문자1 | 2025-08-21</span>
+                    </li>
+                    <li>
+                        <span class="post-title">심층정화: Deep Purge 공략 팁</span>
+                        <span class="post-meta">게이머1 | 2025-08-20</span>
+                    </li>
+                    <li>
+                        <span class="post-title">소리섬: OST 발매 문의</span>
+                        <span class="post-meta">팬1 | 2025-08-19</span>
+                    </li>
+                    <li>
+                        <span class="post-title">전체 게시판: 점검 공지</span>
+                        <span class="post-meta">관리자 | 2025-08-18</span>
+                    </li>
+                    <li>
+                        <span class="post-title">자유 게시판: 다음 게임은 무엇이 될까요?</span>
+                        <span class="post-meta">궁금러 | 2025-08-17</span>
+                    </li>
+                    <li>
+                        <span class="post-title">심층정화: 보스 패턴 질문합니다.</span>
+                        <span class="post-meta">초보게이머 | 2025-08-16</span>
+                    </li>
+                    <li>
+                        <span class="post-title">소리섬: 숨겨진 악보를 찾아서</span>
+                        <span class="post-meta">탐험가 | 2025-08-15</span>
+                    </li>
+                    <li>
+                        <span class="post-title">전체 게시판: 공식 디스코드 채널 오픈!</span>
+                        <span class="post-meta">관리자 | 2025-08-14</span>
+                    </li>
+                    <li>
+                        <span class="post-title">자유 게시판: 유니티 관련 질문</span>
+                        <span class="post-meta">개발꿈나무 | 2025-08-13</span>
+                    </li>
+                    <li>
+                        <span class="post-title">심층정화: 최신 패치 노트</span>
+                        <span class="post-meta">관리자 | 2025-08-12</span>
+                    </li>
+                    <li>
+                        <span class="post-title">소리섬: 팬아트 공유합니다.</span>
+                        <span class="post-meta">그림쟁이 | 2025-08-11</span>
+                    </li>
+                    <li>
+                        <span class="post-title">전체 게시판: 신작 게임 티저 공개</span>
+                        <span class="post-meta">관리자 | 2025-08-10</span>
+                    </li>
+                    <li>
+                        <span class="post-title">자유 게시판: 게임 추천 받아요</span>
+                        <span class="post-meta">뉴비 | 2025-08-09</span>
+                    </li>
+                    <li>
+                        <span class="post-title">심층정화: 히든 퀘스트 공략</span>
+                        <span class="post-meta">고수게이머 | 2025-08-08</span>
+                    </li>
+                </ul>
+                <div class="pagination" id="allBoardPagination">
+                </div>
+            </section>
+
+            <section id="free-board" class="board-section" style="display: none;">
+                <h2>자유 게시판</h2>
+                <ul class="post-list">
+                    <li>
+                        <span class="post-title">새 게임에 대한 아이디어!</span>
+                        <span class="post-meta">방문자1 | 2025-08-21</span>
+                    </li>
+                    <li>
+                        <span class="post-title">유니티 게임 개발자 모집 공고</span>
+                        <span class="post-meta">관리자 | 2025-08-17</span>
+                    </li>
+                    <li>
+                        <span class="post-title">게임 버그 제보합니다.</span>
+                        <span class="post-meta">버그헌터 | 2025-08-16</span>
+                    </li>
+                    <li>
+                        <span class="post-title">다음 게임은 무엇이 될까요?</span>
+                        <span class="post-meta">궁금러 | 2025-08-17</span>
+                    </li>
+                    <li>
+                        <span class="post-title">유니티 관련 질문</span>
+                        <span class="post-meta">개발꿈나무 | 2025-08-13</span>
+                    </li>
+                    <li>
+                        <span class="post-title">게임 추천 받아요</span>
+                        <span class="post-meta">뉴비 | 2025-08-09</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="deep-purge-board" class="board-section" style="display: none;">
+                <h2>심층정화 게시판</h2>
+                <ul class="post-list">
+                    <li>
+                        <span class="post-title">Deep Purge 공략 팁</span>
+                        <span class="post-meta">게이머1 | 2025-08-20</span>
+                    </li>
+                    <li>
+                        <span class="post-title">Deep Purge 스토리 분석</span>
+                        <span class="post-meta">분석가 | 2025-08-15</span>
+                    </li>
+                    <li>
+                        <span class="post-title">신규 캐릭터 건의</span>
+                        <span class="post-meta">유저A | 2025-08-14</span>
+                    </li>
+                    <li>
+                        <span class="post-title">보스 패턴 질문합니다.</span>
+                        <span class="post-meta">초보게이머 | 2025-08-16</span>
+                    </li>
+                    <li>
+                        <span class="post-title">최신 패치 노트</span>
+                        <span class="post-meta">관리자 | 2025-08-12</span>
+                    </li>
+                    <li>
+                        <span class="post-title">히든 퀘스트 공략</span>
+                        <span class="post-meta">고수게이머 | 2025-08-08</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="sound-island-board" class="board-section" style="display: none;">
+                <h2>소리섬 게시판</h2>
+                <ul class="post-list">
+                    <li>
+                        <span class="post-title">소리섬 OST 발매 문의</span>
+                        <span class="post-meta">팬1 | 2025-08-19</span>
+                    </li>
+                    <li>
+                        <span class="post-title">소리섬 신규 맵 아이디어</span>
+                        <span class="post-meta">유저B | 2025-08-13</span>
+                    </li>
+                    <li>
+                        <span class="post-title">리듬 게임 난이도 조절 건의</span>
+                        <span class="post-meta">리듬매니아 | 2025-08-12</span>
+                    </li>
+                    <li>
+                        <span class="post-title">숨겨진 악보를 찾아서</span>
+                        <span class="post-meta">탐험가 | 2025-08-15</span>
+                    </li>
+                    <li>
+                        <span class="post-title">팬아트 공유합니다.</span>
+                        <span class="post-meta">그림쟁이 | 2025-08-11</span>
+                    </li>
+                </ul>
+            </section>
+        </div> -->
+
+
+
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#">GitHub</a> | <a href="#">YouTube</a>
+        </div>
+        <p>&copy; 2025GitHub. deco12000. All Rights Reserved.</p>
+    </footer>
+    <script src="js/Common.js"></script>
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const boardSelector = document.getElementById('boardSelector');
+            const boardSections = document.querySelectorAll('.board-section');
+            const allBoardPosts = document.querySelector('#all-board .post-list').children;
+            const allBoardPagination = document.getElementById('allBoardPagination');
+            const postsPerPage = 5; // 페이지당 게시글 수
+
+            let currentPage = 1;
+
+            // 모든 게시판 섹션을 숨기는 함수
+            function hideAllBoardSections() {
+                boardSections.forEach(section => {
+                    section.style.display = 'none';
+                });
+            }
+
+            // 특정 게시판 섹션을 표시하는 함수
+            function showBoardSection(id) {
+                const section = document.getElementById(id);
+                if (section) {
+                    section.style.display = 'block';
+                }
+            }
+
+            // 전체 게시판 페이지네이션을 처리하는 함수
+            function displayAllBoardPosts(page) {
+                currentPage = page;
+                const start = (currentPage - 1) * postsPerPage;
+                const end = start + postsPerPage;
+
+                for (let i = 0; i < allBoardPosts.length; i++) {
+                    if (i >= start && i < end) {
+                        allBoardPosts[i].style.display = 'flex'; // 게시글 표시
+                    } else {
+                        allBoardPosts[i].style.display = 'none'; // 게시글 숨김
+                    }
+                }
+                updatePaginationButtons();
+            }
+
+            // 페이지네이션 버튼을 업데이트하는 함수
+            function setupPagination() {
+                allBoardPagination.innerHTML = ''; // 기존 페이지네이션 버튼 초기화
+                const totalPages = Math.ceil(allBoardPosts.length / postsPerPage);
+
+                const prevButton = document.createElement('button');
+                prevButton.textContent = '이전';
+                prevButton.onclick = () => {
+                    if (currentPage > 1) {
+                        displayAllBoardPosts(currentPage - 1);
+                    }
+                };
+                allBoardPagination.appendChild(prevButton);
+
+                for (let i = 1; i <= totalPages; i++) {
+                    const pageButton = document.createElement('button');
+                    pageButton.textContent = i;
+                    pageButton.onclick = () => displayAllBoardPosts(i);
+                    allBoardPagination.appendChild(pageButton);
+                }
+
+                const nextButton = document.createElement('button');
+                nextButton.textContent = '다음';
+                nextButton.onclick = () => {
+                    if (currentPage < totalPages) {
+                        displayAllBoardPosts(currentPage + 1);
+                    }
+                };
+                allBoardPagination.appendChild(nextButton);
+
+                updatePaginationButtons();
+            }
+
+            // 현재 페이지에 따라 페이지네이션 버튼의 활성화 상태를 업데이트
+            function updatePaginationButtons() {
+                const buttons = allBoardPagination.querySelectorAll('button');
+                const totalPages = Math.ceil(allBoardPosts.length / postsPerPage);
+
+                buttons.forEach(button => {
+                    button.classList.remove('active');
+                    button.disabled = false;
+                });
+
+                // '이전' 버튼 활성화/비활성화
+                buttons[0].disabled = currentPage === 1;
+
+                // 숫자 버튼 활성화
+                for (let i = 1; i <= totalPages; i++) {
+                    if (i === currentPage) {
+                        buttons[i].classList.add('active');
+                    }
+                }
+
+                // '다음' 버튼 활성화/비활성화
+                buttons[buttons.length - 1].disabled = currentPage === totalPages;
+            }
+
+
+            // 드롭다운 변경 이벤트 핸들러
+            boardSelector.addEventListener('change', function () {
+                hideAllBoardSections();
+                const selectedBoardId = this.value;
+                showBoardSection(selectedBoardId);
+
+                // '전체 게시판'이 선택된 경우에만 페이지네이션을 표시하고 초기화
+                if (selectedBoardId === 'all-board') {
+                    allBoardPagination.style.display = 'flex';
+                    displayAllBoardPosts(1); // 전체 게시판 선택 시 첫 페이지로 이동
+                } else {
+                    allBoardPagination.style.display = 'none'; // 다른 게시판 선택 시 페이지네이션 숨김
+                }
+            });
+
+            // 페이지 로드 시 초기 설정
+            hideAllBoardSections();
+            showBoardSection('all-board'); // 기본적으로 '전체 게시판' 표시
+            setupPagination(); // 페이지네이션 초기 설정
+            displayAllBoardPosts(1); // '전체 게시판'의 첫 페이지 게시글 표시
+        });
+    </script> -->
+</body>
+
+</html>
