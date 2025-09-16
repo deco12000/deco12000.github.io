@@ -7,6 +7,8 @@ body {
     color: #333;
 }
 
+
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -51,6 +53,8 @@ header .logo {
 header .logo img {
     margin-right: 8px;
     border-radius: 50%;
+    width: 32px;
+    height: 32px;
 }
 
 /* 내비게이션 메뉴 스타일 */
